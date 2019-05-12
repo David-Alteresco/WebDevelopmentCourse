@@ -1,0 +1,230 @@
+body {
+    direction: rtl;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+#nav_myname {
+    border: 4px black double;
+    color: brown;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+#Float_b {
+    position: fixed;
+}
+#FirstImg {
+    background-image: url('../Images/WhatsApp Image 2019-05-10 at 23.27.35.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto 1170px;
+    background-position-x: -18px;
+    background-position-y: -75px;
+    width: 1520px;
+    height: 720px;
+    margin: -10px -9px 0px 0px;
+}
+#SecondImg {
+    background-image: url('../Images/WhatsApp Image 2019-05-10 at 23.27.59.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1534px 1107px;
+    width: 1519px;
+    height: 764px;
+    margin-right: -8px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: beige;
+    overflow-x: hidden;
+    transition: 0.2s;
+    background-position-x: center;
+}
+    .sidenav a {
+        padding: 18px 8px 25px 32px;
+        text-decoration: none;
+        font-size: 27px;
+        color: dimgray;
+        display: block;
+        transition: 0.1s;
+        text-align: center;
+    }
+
+
+
+.sidenav a:hover {
+    color: red;
+}
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        margin-right: 160px;
+        margin: -8px -22px 0px 0px;
+    }
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+
+.sidenav a {font-size: 18px;}
+}
+
+#My_img {
+    width: 200px;
+    height: 250px;
+    margin-top: 35px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+#current_page {
+    text-decoration: underline;
+    color: darkred;
+    background-color: coral;
+    font-weight: bold;
+}
+#Mic_pic {
+    background-image: url(../Images/Creation_of_Adam-1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1170px;
+    background-position-x: -18px;
+    background-position-y: -129px;
+    width: 1520px;
+    height: 720px;
+    margin: -10px -9px 0px 0px;
+}
+
+.right_title {
+    margin-right: 280px;
+    display: inline-block;
+    width: auto;
+    font-size: 32px;
+}
+.right_p {
+    font-size: 25px;
+    width: 614px;
+    margin-right: 61px;
+    display: inline-block;
+    text-align: center;
+    border: 4px black dashed;
+    height: 252px;
+    padding: 33px 10px 5px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.left_title {
+    display: inline-block;
+    margin-right: 600px;
+    font-size: 32px;
+}
+.left_p {
+    font-size: 25px;
+    width: 606px;
+    margin-right: 124px;
+    display: inline-block;
+    text-align: center;
+    border: 4px black dashed;
+    height: 280px;
+    padding: 5px 5px 5px 5px;
+}
+.center_p {
+    text-align: center;
+    border: 4px black dashed;
+    font-size: 25px;
+    width: 1470px;
+    height: 205px;
+    padding: 10px 5px -15px 0px;
+    margin-right: 17px;
+}
+#new_Mic_pic {
+    background-image: url(../Images/end_project.png);
+    background-repeat: no-repeat;
+    background-size: auto 1170px;
+    width: 1520px;
+    height: 735px;
+    margin: -5px -9px 0px 0px;
+}
+
+#video {
+    text-align: center;
+}
+#h1_bee {
+    margin-bottom: 100px;
+    background-color: yellow;
+    margin-top: -7px;
+    font-size: 43px;
+    height: 63px;
+}
+#bee_lec {
+    text-align: center;
+    background-color: black;
+    height: 721px;
+    margin: 0px -8px 0px -8px;
+}
+#poster_img {
+    margin-right: 450px;
+}
+#about_me {
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: cadetblue;
+    background: bisque;
+    text-align: center;
+}
+#wesite_title {
+    margin-top: 0px;
+    font-size: -webkit-xxx-large;
+    color: cadetblue;
+    background: bisque;
+    height: 50px;
+    margin-bottom: -1px;
+}
+.center_t {
+    text-align: center;
+    font-size: 38px;
+    margin: 0px;
+}
+
+#poster_article {
+    background-color: coral;
+    margin: -10px 0px 0px 0px;
+    height: 950px;
+    width: 1519px;
+    margin-right: -8px;
+}
+#end_course_project {
+    background-color: cadetblue;
+    margin: 0px 0px 0px 0px;
+    width: 1519px;
+    margin-right: -8px;
+    height: 1209px;
+}
+h3 {
+    margin-right: 75px;
+    padding: 21px 0px 0px 0px;
+    margin-top: -9px;
+    margin-bottom: -50px;
+    font-size: 25px;
+    font-style: italic;
+    position: fixed;
+}
+#video_end_project {
+    margin-right: 433px;
+}
+#song {
+    margin: -96px 589px -41px 0px;
+    position: absolute;
+}
+
